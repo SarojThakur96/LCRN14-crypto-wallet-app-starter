@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
     View,
     Text
 } from 'react-native';
+import { MainLayout } from '.';
 
 const Home = () => {
+  
+
+
     return (
-        <View>
+        <MainLayout>
+           <View>
             <Text>Home</Text>
-        </View>
+            
+           </View>
+        </MainLayout>
     )
 }
 
